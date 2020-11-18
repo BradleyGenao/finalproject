@@ -3,9 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Sentra - Free Bootstrap Theme</title>
-    <!-- 
-Sentra Templatehttps://templatemo.com/tm-518-sentra-->
+    <title>Bradley Genao - Farralon Islands</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -55,18 +53,7 @@ Sentra Templatehttps://templatemo.com/tm-518-sentra-->
               Contact Us </a> </li>
         </ul>
       </nav>
-      <ul class="social-icons">
-        <li><a href="#"><i class="fa fa-facebook"></i></a><br>
-        </li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a><br>
-        </li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a><br>
-        </li>
-        <li><a href="#"><i class="fa fa-rss"></i></a><br>
-        </li>
-        <li><a href="#"><i class="fa fa-behance"></i></a><br>
-        </li>
-      </ul>
+   
     </div>
     <div class="slider">
       <div class="Modern-Slider content-section" id="top">
@@ -76,9 +63,9 @@ Sentra Templatehttps://templatemo.com/tm-518-sentra-->
             <div class="image"></div>
             <div class="info">
               <div>
-                <h1>Farralon Islands<br>
+                <h1>Greater Farallones Association<br>
                 </h1>
-                <p>Sentra is free Bootstrap CSS Template by templatemo website.<br>
+                <p>Learn more about this natural habitat.<br>
                   Please share our site link to your friends.</p>
                 <div class="white-button button"> <a href="#featured">Discover
                     More</a> </div>
@@ -332,14 +319,13 @@ Sentra Templatehttps://templatemo.com/tm-518-sentra-->
         </div>
       </section>
       <section id="contact" class="content-section">
-        <div id="map">
-          <!-- How to change your own map point
-                           1. Go to Google Maps                           2. Click on your location point                           3. Click "Share" and choose "Embed map" tab                           4. Copy only URL and paste it within the src="" field below                    -->
-          <iframe src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d1197183.8373802372%212d-1.9415093691103689%213d6.781986417238027%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5%212sKumasi+Central+Market%215e0%213m2%211sen%212sth%214v1532967884907"
-            style="border:0"
+        <div id="map"> <iframe src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d6313.7031558277995%212d-123.0082947733898%213d37.69968460805243%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x8085fc63899a4e11%3A0x9268b3c31a2759b2%212sSouth%20Farallon%20Islands%215e0%213m2%211sen%212sus%214v1604988068073%215m2%211sen%212sus"
+            style="border:0;"
             allowfullscreen=""
-            width="100%"
-            height="400px"
+            aria-hidden="false"
+            tabindex="0"
+            width="600"
+            height="450"
             frameborder="0"></iframe>
         </div>
         <div id="contact-content">
