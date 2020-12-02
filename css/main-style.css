@@ -1,15 +1,4 @@
 
-
-
-
-
-
-
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -63,7 +52,7 @@ p {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: #43AA8B;
 }
 
 .section-heading p {
@@ -78,7 +67,7 @@ p {
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #0B3954;
   text-transform: capitalize;
   background-color: #fff;
   display: inline-block;
@@ -91,7 +80,7 @@ p {
 }
 
 .white-button a:hover {
-  background-color: #45489a;
+  background-color: #0B3954;
   color: #fff;
 }
 
@@ -100,7 +89,7 @@ p {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #0B3954;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -190,37 +179,11 @@ header {
   float: left;
   height: 100%;
   position: fixed;
-  background-color: rgba(12, 12, 12, 0.9);
+  background-color: #0B3954;
   z-index: 10;
+  opacity: 0.9;
 }
 
-.sidebar-navigation .logo {
-  position: absolute;
-  width: 100%;
-  height: 140px;
-  line-height: 100px;
-  background-color: #45489a;
-  padding: 20px;
-  text-align: center;
-}
-
-.sidebar-navigation .logo a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  height: 100px;
-  width: 100%;
-  display: inline-block;
-  border: 1px solid rgba(250, 250, 250, 0.5);
-}
-
-.sidebar-navigation .logo em {
-  font-style: normal;
-  font-weight: 300;
-}
 
 .sidebar-navigation nav {
   position: relative;
@@ -247,7 +210,7 @@ header {
 }
 .sidebar-navigation nav a {
   display: inline-block;
-  color: #fff;
+  color: #43AA8B;
   margin-top: 5px;
   text-decoration: none !important;
   font-size: 15px;
@@ -262,7 +225,7 @@ header {
   top: -1px;
   border-radius: 50%;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #EAD94C;
   transition: all 0.3s;
 }
 .rect {
@@ -276,50 +239,21 @@ header {
   transition: transform 0.1s, width 0.6s;
 }
 .sidebar-navigation nav a:focus {
-  color: #fff;
+  color: #EAD94C;
 }
 .sidebar-navigation nav a:hover,
 nav .active-section {
-  color: #fff;
+  color: #EAD94C;
 }
 .sidebar-navigation nav a:hover span,
 nav .active-section span {
-  background-color: #ddd;
+  background-color: #EAD94C;
 }
 .sidebar-navigation nav .active-section .rect {
   width: 30px;
 }
 .sidebar-navigation nav .active-section .circle {
-  background-color: #fff;
-}
-
-.sidebar-navigation .social-icons {
-  position: absolute;
-  width: 100%;
-  bottom: 10px;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-.sidebar-navigation .social-icons li {
-  display: inline-block;
-  margin-right: 15px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.sidebar-navigation .social-icons li:last-child {
-  margin-right: 0px;
-}
-
-.sidebar-navigation .social-icons li a {
-  font-size: 18px;
-  color: #fff;
-  transition: all 0.5s;
-}
-
-.sidebar-navigation .social-icons li a:hover {
-  color: #45489a;
+  background-color: #EAD94C;
 }
 
 /* Slider Style */
@@ -388,13 +322,14 @@ nav .active-section span {
   right: 60px;
   width: 50px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.5);
+  background: #0B3954;
   border: 0 none;
   margin-top: -22.5px;
   text-align: center;
   font: 32px/50px FontAwesome;
   color: #fff;
   z-index: 5;
+  opacity: 9;
 }
 
 .Modern-Slider .NextArrow:before {
@@ -408,13 +343,14 @@ nav .active-section span {
   right: 120px;
   width: 50px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.5);
+  background: #0B3954;
   border: 0 none;
   margin-top: -22.5px;
   text-align: center;
   font: 32px/50px FontAwesome;
   color: #fff;
   z-index: 5;
+  opacity: .9;
 }
 
 .Modern-Slider .item .image {
@@ -924,7 +860,7 @@ nav .active-section span {
     float: left;
 }
 .main-timeline .timeline-content{
-    background: #f72727;
+    background: #EAD94C;
     padding: 30px 85px 30px 30px;
     border-radius: 0 40px;
     display: block;
@@ -995,12 +931,12 @@ nav .active-section span {
     right: auto;
     left: -16px;
 }
-.main-timeline .timeline:nth-child(4n+2) .timeline-content{ background-color: #92AFD7; }
-.main-timeline .timeline:nth-child(4n+2) .title{ color: #92AFD7; }
+.main-timeline .timeline:nth-child(4n+2) .timeline-content{ background-color: #0B3954; }
+.main-timeline .timeline:nth-child(4n+2) .title{ color: #0B3954; }
 .main-timeline .timeline:nth-child(4n+3) .timeline-content{ background-color: #F79D84; }
 .main-timeline .timeline:nth-child(4n+3) .title{ color: #F79D84; }
-.main-timeline .timeline:nth-child(4n+4) .timeline-content{ background-color: #59CD90; }
-.main-timeline .timeline:nth-child(4n+4) .title{ color: #59CD90; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content{ background-color: #43AA8B; }
+.main-timeline .timeline:nth-child(4n+4) .title{ color: #43AA8B; }
 @media screen and (max-width:767px){
     .main-timeline .timeline,
     .main-timeline .timeline:nth-child(even){
@@ -1050,7 +986,7 @@ nav .active-section span {
   background-image: url('https://res.cloudinary.com/dgjyrmia1/image/upload/v1606888058/about-me_b3jkhv.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: solid 1em #1A1B41;
+  border-top: solid 1em #0B3954;
 }
 
 .masthead-intro {
@@ -1063,7 +999,7 @@ nav .active-section span {
 
 .masthead-heading {
     /* Layout Declarations */
-    color: #1A1B41;
+    color: #0B3954;
     margin-top: -0.2em;
     /* Typography Declarations */
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -1110,7 +1046,7 @@ section > h1 {
   background-image: url('https://res.cloudinary.com/dgjyrmia1/image/upload/v1606888058/about-me_b3jkhv.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: solid 1em #1A1B41;
+  border-top: solid 1em #0B3954;
 }
 
 .masthead-intro {
@@ -1155,12 +1091,12 @@ h2 {
   margin: 0 5px;
 }
 .content-footer > p {
-  color: #1A1B41;
+  color: #0B3954;
 }
 a {
     font-weight: bold;
     text-decoration: none;
-    color: #1A1B41;
+    color: #0B3954;
 }
   
 @media only screen and (max-width: 500px) {
@@ -1176,7 +1112,7 @@ a {
 /* Footer Style */
 
 .footer {
-  background-color: rgba(12, 12, 12, 0.9);
+  background-color: #0B3954;
   height: 80px;
   line-height: 80px;
   display: inline-block;
@@ -1204,10 +1140,6 @@ a {
 @media (max-width: 992px) {
   .responsive-nav {
     display: none;
-  }
-
-  .sidebar-navigation .logo a {
-    font-size: 18px;
   }
 
   .sidebar-navigation nav a {
