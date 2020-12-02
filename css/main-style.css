@@ -897,7 +897,7 @@ nav .active-section span {
     top: 50%;
 }
 .main-timeline .title{
-    color: #f72727;
+    color: #EAD94C;
     font-size: 22px;
     font-weight: 800;
     text-transform: capitalize;
@@ -1118,6 +1118,7 @@ a {
   display: inline-block;
   text-align: center;
   width: 100%;
+  opacity: .9;
 }
 
 .footer p {
