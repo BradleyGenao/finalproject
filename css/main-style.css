@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -6,7 +14,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -33,7 +43,8 @@ html {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -64,6 +75,61 @@ html {
     width: 100%;
     display: block;
   }
+}
+
+/* ================ The Gallery ================ */
+
+.gallery {
+  list-style: none;
+  margin: 0;
+ 
+  display: list-item;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+  width: 100%;
+  max-width: calc(40ch * 3 + 6rem);
+}
+
+.gallery-card {
+  display: grid;
+  overflow: hidden;
+  height: 40vh;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  grid-template-areas: card;
+  place-items: end;
+  padding-bottom: 10;
+  
+  
+}
+
+.gallery-card__img,
+.gallery-card__caption {
+  grid-area: card;
+}
+
+.gallery-card__caption {
+  margin: 0;
+  transform: translateY(100%);
+  transition: transform 800ms ease-in;
+  will-change: transform;
+
+  text-align: right;
+  padding: 0.60em 0.60em;
+  border-radius: 4px 0 0 0;
+  background-color: #92AFD7;
+}
+
+.gallery-card:hover .gallery-card__caption {
+  transform: translateY(0);
+}
+
+.gallery-card__img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+  display: block;
 }
 
 /* ================ The Timeline ================ */
