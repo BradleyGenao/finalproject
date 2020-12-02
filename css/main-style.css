@@ -101,7 +101,7 @@ p {
 
 .accent-button a:hover {
   background-color: #fff;
-  color: #45489a;
+  color: #0B3954;
 }
 
 header {
@@ -145,7 +145,7 @@ header {
 
 #main-nav ul {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #0B3954;
   margin-top: 59px;
   width: 100%;
 }
@@ -503,7 +503,7 @@ nav .active-section span {
 }
 
 #wildlife .owl-dots .active span {
-  background-color: #45489a !important;
+  background-color: #0B3954 !important;
 }
 
 #wildlife .owl-dots button {
@@ -540,7 +540,7 @@ nav .active-section span {
 }
 
 #wildlife .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #0B3954;
   color: #fff;
 }
 
@@ -565,7 +565,7 @@ nav .active-section span {
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(69, 72, 154, 0.9);
+  background-color: #0B3954;
   display: inline-block;
   height: 44px;
   line-height: 44px;
