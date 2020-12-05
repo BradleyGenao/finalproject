@@ -646,37 +646,6 @@ outline: none;
 }
 
 
-
-
-
-/* About Me Presentation Style */
-
-#aboutme {
-  text-align: center;
-  background-color: #f4f4f4;
-  padding: 100px 60px;
-}
-
-#aboutme .section-heading {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-#aboutme .section-heading h1 {
-  display: block;
-  margin: 0px;
-}
-
-#aboutme .section-heading p {
-  position: relative;
-  margin: 0px;
-}
-
-#aboutme.accent-button {
-  margin-top: 30px;
-}
-
-
 /* Sanctuaries Presentation Style */
 
 #sanctuaries {
